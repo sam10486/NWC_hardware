@@ -1,0 +1,42 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on May 07, 2022 at 16:32:33 CST
+ncverilog
+	R16_BU.sv
+Recompiling... reason: file './R16_BU.sv' is newer than expected.
+	expected: Thu May  5 18:35:03 2022
+	actual:   Sat May  7 16:32:31 2022
+file: R16_BU.sv
+	module worklib.R16_BU:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.BU2_NWC:sv <0x7b7951aa>
+			streams:   0, words:     0
+		worklib.ModAdd:sv <0x56d9a3db>
+			streams:   0, words:     0
+		worklib.ModSub:sv <0x2b1873cc>
+			streams:   0, words:     0
+		worklib.R16_BU:sv <0x6724b3b2>
+			streams:   0, words:     0
+		worklib.barrett_reduction:sv <0x77170cc6>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                129       5
+		Registers:             1043     268
+		Vectored wires:         512       -
+		Always blocks:          196      10
+		Simulation timescale:   1ps
+	Writing initial simulation snapshot: worklib.R16_BU:sv
+Loading snapshot worklib.R16_BU:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on May 07, 2022 at 16:32:34 CST  (total: 00:00:01)

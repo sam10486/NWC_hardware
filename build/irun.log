@@ -1,0 +1,63 @@
+irun: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun	15.20-s084: Started on May 07, 2022 at 18:47:31 CST
+irun
+	/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/testbench/R16_BU_tb.sv
+	+incdir+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./src+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./include+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim
+	+define+prog0+FSDB_ALL
+	-define CYCLE=12.0
+	-define MAX=100000
+	+access+r
+	+prog_path=/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/prog0
+	-loadpli1 debpli:novas_pli_boot
+
+   User defined plus("+") options:
+	+prog_path=/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/prog0
+
+Loading snapshot worklib.Testbench:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_R-2020.12, Linux, 11/19/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'R16_BU.fsdb'
+*Verdi* : Begin traversing the scope (Testbench.R16_BU), layer (0).
+*Verdi* : Enable +struct and +mda dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the scope (Testbench), layer (0).
+*Verdi* : Enable +struct and +mda dumping.
+*Verdi* : End of traversing.
+          0 data is correct, your data is  37, correct up data is  37
+          1 data is correct, your data is 142, correct up data is 142
+          2 data is correct, your data is 178, correct up data is 178
+          3 data is correct, your data is 119, correct up data is 119
+          4 data is correct, your data is 104, correct up data is 104
+          5 data is correct, your data is  97, correct up data is  97
+          6 data is correct, your data is 103, correct up data is 103
+          7 data is correct, your data is  70, correct up data is  70
+          8 data is correct, your data is  33, correct up data is  33
+          9 data is correct, your data is  80, correct up data is  80
+         10 data is correct, your data is  84, correct up data is  84
+         11 data is correct, your data is  30, correct up data is  30
+         12 data is correct, your data is  26, correct up data is  26
+         13 data is correct, your data is  87, correct up data is  87
+         14 data is correct, your data is 169, correct up data is 169
+         15 data is correct, your data is 112, correct up data is 112
+
+
+
+
+        ****************************               
+        **                        **       |__||  
+        **  Congratulations !!    **      / O.O  | 
+        **                        **    /_____   | 
+        **  Simulation PASS!!     **   /^ ^ ^ \  |
+        **                        **  |^ ^ ^ ^ |w| 
+        ****************************   \m___m__|_|
+
+
+Simulation complete via $finish(1) at time 12 MS + 0
+../sim/testbench/R16_BU_tb.sv:155         $finish;
+ncsim> exit
+TOOL:	irun	15.20-s084: Exiting on May 07, 2022 at 18:47:32 CST  (total: 00:00:01)

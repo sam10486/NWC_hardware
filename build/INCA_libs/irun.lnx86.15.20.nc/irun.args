@@ -1,0 +1,15 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/testbench/R16_BU_tb.sv
++incdir+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./src+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./include+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim
++define+prog0+FSDB_ALL
+-define
+CYCLE=12.0
+-define
+MAX=100000
++access+r
++prog_path=/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/prog0
+-loadpli1
+debpli:novas_pli_boot

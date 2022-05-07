@@ -1,0 +1,185 @@
+ncsim 15.20-s084
+Linux 3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018 x86_64
+CPU cores: 40
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+SNPS_ENV_BASE=/usr/cad/synopsys/CIC
+XDG_SESSION_ID=59
+TERM_PROGRAM=vscode
+HOSTNAME=VLSILAB-PLAT1
+CDNS_ENV_BASE=/usr/cad/cadence/CIC
+TERM=xterm-256color
+SHELL=/bin/bash
+HISTSIZE=1000
+MAKEFLAGS=FSDB=2
+SSH_CLIENT=140.116.187.119 57871 22
+TERM_PROGRAM_VERSION=1.67.0
+QT_GRAPHICSSYSTEM_CHECKED=1
+CMAKE_HOME=/home/ldap-users/siang/Desktop/cmake-3.18.4/bin
+USER=siang
+MAKEOVERRIDES=${-*-command-variables-*-}
+LD_LIBRARY_PATH=/usr/local/systemc-2.3/lib-linux64:/usr/local/lib:/cad/synopsys/verdi/2020.12/share/PLI/lib/LINUX:/cad/synopsys/verdi/2020.12/share/PLI/IUS/LINUX/boot
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SNPS_BASE=/usr/cad/synopsys
+XLNX_BASE=/opt/Xilinx
+FSDB=2
+MAKELEVEL=1
+CDNS_BASE=/usr/cad/cadence
+MFLAGS=
+MAIL=/var/spool/mail/siang
+PATH=/home/ldap-users/siang/Desktop/cmake-3.18.4/bin:/home/ldap-users/siang/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/remote-cli:/home/ldap-users/siang/Desktop/cmake-3.18.4/bin:/home/ldap-users/siang/Desktop/cmake-3.18.4/bin:/usr/local/bin:/usr/bin:/cad/cadence/INCISIV/cur/tools/bin:/opt/Synopsys/verdi/cur/bin:/opt/Synopsys/synthesis/cur/bin:/opt/Synopsys/lc/cur/bin:/opt/modelsim/cur/modeltech/bin:/opt/riscv/bin:/usr/local/sbin:/usr/sbin:/cad/cadence/INCISIV/cur/tools/bin:/opt/Synopsys/verdi/cur/bin:/opt/Synopsys/synthesis/cur/bin:/opt/Synopsys/lc/cur/bin:/opt/modelsim/cur/modeltech/bin:/opt/riscv/bin:/home/ldap-users/siang/.local/bin:/home/ldap-users/siang/bin:/cad/cadence/INCISIV/cur/tools/bin:/opt/Synopsys/verdi/cur/bin:/opt/Synopsys/synthesis/cur/bin:/opt/Synopsys/lc/cur/bin:/opt/modelsim/cur/modeltech/bin:/opt/riscv/bin
+PWD=/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/build
+LANG=en_US.UTF-8
+KDEDIRS=/usr
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+SYSTEMC_HOME=/usr/local/systemc-2.3/
+LM_LICENSE_FILE=5280@lsncku:26585@lsncku:1717@lsncku:5280@lstn:26585@lstn:1717@lstn
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HISTCONTROL=ignoredups
+SHLVL=6
+HOME=/home/ldap-users/siang
+VSCODE_GIT_ASKPASS_MAIN=/home/ldap-users/siang/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/extensions/git/dist/askpass-main.js
+LOGNAME=siang
+VSCODE_GIT_IPC_HANDLE=/run/user/10030/vscode-git-68564e7683.sock
+SSH_CONNECTION=140.116.187.119 57871 140.116.187.101 22
+XDG_DATA_DIRS=/home/ldap-users/siang/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+VSCODE_IPC_HOOK_CLI=/run/user/10030/vscode-ipc-7c90d423-4d52-4e60-989c-f77e582672b8.sock
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BROWSER=/home/ldap-users/siang/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/helpers/browser.sh
+GIT_ASKPASS=/home/ldap-users/siang/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/extensions/git/dist/askpass.sh
+VSCODE_GIT_ASKPASS_NODE=/home/ldap-users/siang/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/node
+XDG_RUNTIME_DIR=/run/user/10030
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+COLORTERM=truecolor
+_=/cad/cadence/INCISIV/cur/tools/bin/irun
+OLDPWD=/home/ldap-users/siang/Desktop/NWC_verilog/N26094891
+_IRUNROOT_=/cad/cadence/INCISIV/cur/tools
+CDS_ARCH=lnx86
+NCRUNMODE=irun:./INCA_libs/irun.lnx86.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=irun
+argv[1]=/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/testbench/R16_BU_tb.sv
+argv[2]=+incdir+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./src+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./include+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim
+argv[3]=+define+prog0+FSDB_ALL
+argv[4]=-define
+argv[5]=CYCLE=12.0
+argv[6]=-define
+argv[7]=MAX=100000
+argv[8]=+access+r
+argv[9]=+prog_path=/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/prog0
+argv[10]=-loadpli1
+argv[11]=debpli:novas_pli_boot
+88 profile - 100
+          CPU/Mem usage: 0.060 sys,  0.040 user,  61.83M sys,  0.00M vm
+89 VC callback profile - scalar:0 vector:0
+90 Sat May  7 18:47:31 2022
+91 pliAppInit
+92 FSDB_GATE is disabled.
+93 Enable Parallel Dumping.
+94 pliAppMiscSet: New Sim Round
+95 pliEntryInit
+96 LIBSSCORE=found /cad/synopsys/verdi/2020.12/share/PLI/lib/LINUX/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+97 argv[0]: R16_BU.fsdb
+98 argv[0]: +struct
+99 argv[1]: +mda
+100 argv[2]: (handle)0xb834160 Testbench.R16_BU
+101 argv[0]: +struct
+102 argv[1]: +mda
+103 argv[2]: (handle)0xb834150 Testbench
+104 FSDB Dumper for IUS, Release Verdi_R-2020.12, Linux, 11/19/2020
+105 (C) 1996 - 2020 by Synopsys, Inc.
+106 sps_call_fsdbDumpfile at 0 : /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/sim/testbench/R16_BU_tb.sv(147)
+107 argv[0]: R16_BU.fsdb
+108 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+109 *Verdi* : Create FSDB file 'R16_BU.fsdb'
+110 sps_call_fsdbDumpvars at 0 : /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/sim/testbench/R16_BU_tb.sv(148)
+111 argv[0]: +struct
+112 argv[1]: +mda
+113 argv[2]: (handle)0xb834160 Testbench.R16_BU
+114 *Verdi* : Begin traversing the scope (Testbench.R16_BU), layer (0).
+115 *Verdi* : Enable +struct and +mda dumping.
+116 *Verdi* : End of traversing.
+117 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.070 sys,  0.070 user,  143.55M sys,  0.00M vm
+                   incr: 0.010 sys,  0.020 user,  3.81M sys,  0.00M vm
+                   accu: 0.010 sys,  0.020 user,  3.81M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.020 user,  3.81M sys,  0.00M vm
+
+          Count usage: 1622 var,  1239 idcode,  1239 callback
+                 incr: 1622 var,  1239 idcode,  1239 callback
+                 accu: 1622 var,  1239 idcode,  1239 callback
+            accu incr: 1622 var,  1239 idcode,  1239 callback
+118 VC callback profile - scalar:0 vector:0
+119 Sat May  7 18:47:31 2022
+120 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.070 sys,  0.080 user,  144.60M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  1.05M sys,  0.00M vm
+                   accu: 0.010 sys,  0.030 user,  4.86M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  1.05M sys,  0.00M vm
+
+          Count usage: 1622 var,  1239 idcode,  1239 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 1622 var,  1239 idcode,  1239 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+121 VC callback profile - scalar:2 vector:1237
+122 Sat May  7 18:47:31 2022
+123 sps_call_fsdbDumpvars at 0 : /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/sim/testbench/R16_BU_tb.sv(149)
+124 argv[0]: +struct
+125 argv[1]: +mda
+126 argv[2]: (handle)0xb834178 Testbench
+127 *Verdi* : Begin traversing the scope (Testbench), layer (0).
+128 *Verdi* : Enable +struct and +mda dumping.
+129 *Verdi* : End of traversing.
+130 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.070 sys,  0.090 user,  144.81M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  0.21M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  0.21M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  0.21M sys,  0.00M vm
+
+          Count usage: 3363 var,  1358 idcode,  1358 callback
+                 incr: 1741 var,  119 idcode,  119 callback
+                 accu: 1741 var,  119 idcode,  119 callback
+            accu incr: 1741 var,  119 idcode,  119 callback
+131 VC callback profile - scalar:2 vector:1237
+132 Sat May  7 18:47:31 2022
+133 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.070 sys,  0.100 user,  144.81M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  0.00M sys,  0.00M vm
+                   accu: 0.000 sys,  0.020 user,  0.21M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  0.00M sys,  0.00M vm
+
+          Count usage: 3363 var,  1358 idcode,  1358 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 1741 var,  119 idcode,  119 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+134 VC callback profile - scalar:7 vector:2590
+135 Sat May  7 18:47:31 2022
+136 End of simulation at 12000000000
+137 VC callback profile - scalar:400011 vector:5134
+138 Sat May  7 18:47:32 2022
+139 Begin FSDB profile info:
+140 FSDB Writer : bc1(400011) bcn(5134) mtf/stf(0/1)
+FSDB Writer elapsed time : flush(0.281111) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+141 End FSDB profile info
+142 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:4
+143                        ProduceTime:0.288907787 ConsumerTime:0.096349403 Buffer:64MB
+144 SimExit
+145 Sim process exit
