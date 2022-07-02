@@ -50,8 +50,8 @@ module BU2_FFT (
         .out(sub1_out)
     );
 
-    barrett_reduction #(.pre_computing_width(10) , 
-                        .precompute(10'd679))
+    barrett_reduction #(.pre_computing_width(`pre_computing_width) , 
+                        .precompute(`precompute))
     barrett_reduction(
         .a(fft_b_pip1),
         .b(twiddle_pip1),

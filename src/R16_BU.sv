@@ -11,9 +11,29 @@ module R16_BU (
     input [`D_width-1:0] modulus,
     input clk,
     input rst,
+    input enable,
     output logic [`D_width-1:0] y0, y1, y2, y3, y4, y5, y6, y7,
-                                y8, y9, y10, y11, y12, y13, y14, y15
+                                y8, y9, y10, y11, y12, y13, y14, y15,
+    output logic [`D_width-1:0] R16_BU_cnt
+
 );
+
+    always_ff @( posedge clk or posedge rst ) begin : blockName
+        if (rst) begin
+            R16_BU_cnt <= 'd0;
+        end else begin
+           if (enable) begin
+                if (R16_BU_cnt == 'd4) begin
+                    R16_BU_cnt <= R16_BU_cnt;
+                end else begin
+                    R16_BU_cnt <= R16_BU_cnt + 'd1;
+                end
+           end else begin
+                R16_BU_cnt <= 'd0;
+           end
+        end
+    end
+
 
     //stage 0 output
     logic [`D_width-1:0] stage0_fft_a0, stage0_fft_b0;

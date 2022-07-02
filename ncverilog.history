@@ -1,1 +1,2 @@
 s1(29Apr2022:21:04:43):  ncverilog -c ./src 
+s2(28Jun2022:14:45:20):  ncverilog memory_rtl.sv 

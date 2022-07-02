@@ -1,20 +1,31 @@
 `ifndef DEFINE_SVH
 `define DEFINE_SVH
 
+// n = 64 , modular = 257, radix=16
 `timescale 10ns / 1ps
-`define D_width 8
-`define double_d_width 16
+`define D_width 32
+`define double_d_width `D_width*2
 
-/*//------barrett parameter-------- alpha=n+1-9 beta = -2                                                   
-`define DATA_WIDTH           8
-`define DOUBLE_DATA_WIDTH    16  //2*DATA_WIDTH
+`define degree 8192
+`define Radix 16
+`define Radix_width $clog2(`Radix)
+`define degree_width $clog2(`degree)
 
-`define DATA_FRI_RS_WIDTH    10  // DOUBLE_DATA_WIDTH - rf_FRI                            
-`define DATA_MULT_PRE_WIDTH  23     
+`define BN `Radix
+`define MA `degree/`BN
+`define BANK_width $clog2(`BN)
+`define MA_width $clog2(`MA)
+`define delta $clog2(`Radix)                            //logr
+`define bank_idx_upper_bound  $clog2(`degree) / `delta  //logr^N
 
-`define Prime                8'd229
-`define rf_FRI               6         //DATA_WIDTH-2                                                   
-`define rf_SEC               11         //DATA_WIDTH+3                                                  
-`define pre_computing        13'd572   // equal to DATA_FRI_RS_WIDTH
-*/
+
+`define radix_k1 4
+`define radix_k2 1
+`define k ( $clog2(`degree) - `radix_k2) / `radix_k1
+`define logn $clog2(`degree)
+//-------barrett precomputing value-----
+`define pre_computing_width `D_width+3                  // D_width+3
+`define precompute 35'd11453246119
+
+
 `endif 

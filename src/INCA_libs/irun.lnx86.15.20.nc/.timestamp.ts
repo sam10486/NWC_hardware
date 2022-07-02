@@ -1,4 +1,11 @@
-1651912351 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/R16_BU.sv
+1656491233 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/R16_BU.sv
 1651299835 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/barrett.sv
+1656512148 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/AGU.sv
 1651905189 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/BU_NWC.sv
-1651492291 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/BU.sv
+1656504979 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/BitRev.sv
+1656511925 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/Order_translate.sv
+1656496390 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/BR.sv
+1656568837 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/AGU_top.sv
+1656511185 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/idx_translate.sv
+1652083767 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/BU.sv
+1656490481 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/src/memory_rtl.sv

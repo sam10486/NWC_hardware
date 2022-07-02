@@ -27,7 +27,7 @@ module Testbench();
 
     logic [`D_width-1:0] ans_up [0:95];  
     logic [`D_width-1:0] ans_down [0:95];   
-    assign modulus = 193;
+    assign modulus = 7681;
     initial begin
         $readmemh("../sim/data_file/BU/twiddle_out.txt", twiddle_mem);  
         $readmemh("../sim/data_file/BU/fft_up.txt", fft_up);

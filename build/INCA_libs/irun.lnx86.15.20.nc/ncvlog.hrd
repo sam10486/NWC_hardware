@@ -9,10 +9,6 @@
 -INCDIR
 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim
 -DEFINE
-prog0
--DEFINE
-FSDB_ALL
--DEFINE
 CYCLE=12.0
 -DEFINE
-MAX=100000
+MAX=10000

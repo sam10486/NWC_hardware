@@ -5,7 +5,7 @@
 -XLMODE
 ./INCA_libs/irun.lnx86.15.20.nc
 -RUNMODE
-/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/testbench/R16_BU_tb.sv
+/home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim/testbench/MEM_tb.sv
 -INCDIR
 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./src
 -INCDIR
@@ -13,13 +13,9 @@
 -INCDIR
 /home/ldap-users/siang/Desktop/NWC_verilog/N26094891/./sim
 -DEFINE
-prog0
--DEFINE
-FSDB_ALL
--DEFINE
 CYCLE=12.0
 -DEFINE
-MAX=100000
+MAX=10000
 -CDSLIB
 ./INCA_libs/irun.lnx86.15.20.nc/cdsrun.lib
 -HDLVAR

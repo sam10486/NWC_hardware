@@ -1,5 +1,1 @@
-./R16_BU.sv
-./BU2_NWC.sv
-./ModAdd.sv
-./ModSub.sv
-./barrett_reduction.sv
+./memory_rtl.sv

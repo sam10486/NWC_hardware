@@ -25,7 +25,7 @@ module Testbench();
 
     logic [`D_width-1:0] ans_up [0:pattern_num-1];  
     logic [`D_width-1:0] ans_down [0:pattern_num-1];   
-    assign modulus = 193;
+    assign modulus = 7681;
     initial begin
         $readmemh("../sim/data_file/BU_NWC/pattern_up_NWC.txt", pattern_up_NWC);  
         $readmemh("../sim/data_file/BU_NWC/pattern_down_NWC.txt", pattern_down_NWC);

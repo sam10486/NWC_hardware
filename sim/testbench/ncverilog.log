@@ -1,0 +1,56 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Jun 30, 2022 at 16:07:04 CST
+ncverilog
+	R16_BU_tb.sv
+file: R16_BU_tb.sv
+`include "../include/define.svh"
+                               |
+ncvlog: *E,COFILX (R16_BU_tb.sv,1|31): cannot open include file '../include/define.svh'.
+`include "R16_BU.sv"
+                   |
+ncvlog: *E,COFILX (R16_BU_tb.sv,2|19): cannot open include file 'R16_BU.sv'.
+    logic [`D_width-1:0]    x0, x1, x2, x3, x4, x5, x6, x7,
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,8|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    logic [`D_width-1:0]    twiddle_0, twiddle_1, twiddle_2, twiddle_3, twiddle_4, twiddle_5, twiddle_6,
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,10|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    logic [`D_width-1:0] modulus;
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,13|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    logic [`D_width-1:0]    y0, y1, y2, y3, y4, y5, y6, y7,
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,17|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    logic [`D_width-1:0] input_pattern [0:pattern_number-1]; 
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,21|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    logic [`D_width-1:0] output_pattern [0:pattern_number-1]; 
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,22|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    logic [`D_width-1:0] phi_factor [0:pattern_number-1];
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,23|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    logic [`D_width-1:0] R16_output [0:pattern_number-1];  
+                  |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,25|18): `D_width: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    assign modulus = 3221225473;
+                              |
+ncvlog: *W,SGNOVF (R16_BU_tb.sv,38|30): sign overflow during conversion from text [2.5(IEEE)] (32 bits).
+        #(`CYCLE*`MAX) $finish;
+                    |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,138|20): `MAX: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+        #(`CYCLE*`MAX) $finish;
+                     |
+ncvlog: *E,ILLPRI (R16_BU_tb.sv,138|21): illegal expression primary [4.2(IEEE)].
+        #(`CYCLE*`MAX)
+                    |
+ncvlog: *E,NOTDIR (R16_BU_tb.sv,154|20): `MAX: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+        #(`CYCLE*`MAX)
+                     |
+ncvlog: *E,ILLPRI (R16_BU_tb.sv,154|21): illegal expression primary [4.2(IEEE)].
+	module worklib.Testbench:sv
+		errors: 12, warnings: 1
+	Total errors/warnings found outside modules and primitives:
+		errors: 2, warnings: 0
+ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	ncverilog	15.20-s084: Exiting on Jun 30, 2022 at 16:07:04 CST  (total: 00:00:00)

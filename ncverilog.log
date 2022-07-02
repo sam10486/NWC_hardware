@@ -1,9 +1,6 @@
 ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s084: Started on Apr 29, 2022 at 21:04:43 CST
+TOOL:	ncverilog	15.20-s084: Started on Jun 28, 2022 at 14:45:20 CST
 ncverilog
-	-c
-	./src
-ncvlog: *E,BADFIL: invalid file: ./src (not a regular file).
-ncvlog: *F,NOTOPL: no top-level unit found, must have recursive instances.
-ncverilog: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 2).
-TOOL:	ncverilog	15.20-s084: Exiting on Apr 29, 2022 at 21:04:43 CST  (total: 00:00:00)
+	memory_rtl.sv
+ncverilog: *E,FILEMIS: Cannot find the provided file memory_rtl.sv.
+TOOL:	ncverilog	15.20-s084: Exiting on Jun 28, 2022 at 14:45:20 CST  (total: 00:00:00)
